@@ -15,12 +15,23 @@ Inicio
    escreva ("insira uma nota: ")
    leia (nota)
    escreval (" ")
+   enquanto ( nota > 10) ou ( nota < 0) faca
+      escreva( "nota invalida, digite novamente: ")
+      leia (nota)
+      limpatela
+   fimenquanto
+   escreval (" ")
    escreva ("gostaria de inserir uma nota adicional?: ")
    leia (pergunta)
    enquanto (pergunta = "sim") faca
       escreval (" ")
       escreva ("insira uma nota: ")
       leia (nota)
+      enquanto ( nota > 10) ou ( nota < 0) faca
+         escreva( "nota invalida, digite novamente: ")
+         leia (nota)
+         limpatela
+      fimenquanto
       divisao <- divisao + 1
       nota <- nota + nota
       limpatela
