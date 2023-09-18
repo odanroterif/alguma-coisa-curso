@@ -14,14 +14,17 @@ Var
    a: inteiro
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   enquanto ( numero >= 0) faca
+   numero <- 1
+   enquanto ( numero > 0) faca
+      escreva ("digite 0 para interromper o processo")
+      escreval (" ")
       escreva ("digite um número: ")
       leia (numero)
-      se ( numero >= 0 ) e ( numero%2 = 0) entao
+      se ( numero > 0 ) e ( numero%2 = 0)  entao
          par <- par + numero
          quantidadepar <- quantidadepar + 1
       fimse
-      se ( numero >= 0 ) e ( numero%2 <> 0) entao
+      se ( numero > 0 ) e ( numero%2 <> 0)  entao
          impar <- impar + numero
          quantidadeimpar <- quantidadeimpar + 1
       fimse
@@ -32,7 +35,7 @@ Inicio
    escreval (" ")
    escreva ("quantidade de números impares: ",quantidadeimpar)
    escreval (" ")
-   escreva ("média dos pares: ",par/quantidadepar)
+   escreva ("média dos pares: ",par/quantidadepar :1 :1)
    escreval (" ")
    escreva ("média geral: ",(par + impar)/a :1 :1)
 Fimalgoritmo
