@@ -10,18 +10,19 @@ int main()
     int optioncode;
 //-------------------------
     printf("----+-+-+-+-+-+-+-----MENU-----+-+-+-+-+-+-+----");
-    printf("\ncÛdigo            comida             valor");
+    printf("\nc√≥digo            comida             valor");
     printf("\n  1              picanha            R$ 25,00");
     printf("\n  2              lasanha            R$ 20.00");
     printf("\n  3             strogonoff          R$ 18,00");
-    printf("\n  4           bifÈ acebolado        R$ 15,00");
-    printf("\n  5             p„o com ovo         R$  5,00");
-    printf("\n\ndigite o cÛdigo da comida: ");
+    printf("\n  4           bif√© acebolado        R$ 15,00");
+    printf("\n  5             p√£o com ovo         R$  5,00");
+    printf("\n\ndigite o c√≥digo da comida: ");
     scanf("%i", &optioncode);
     system("cls || flush");
     switch (optioncode)
     {
     case 1:
+        //strcpy(resultado,"prato selecionado: picanha\nvalor a pagar: R$25,00")<-- forma alternativa com variavel
         printf("prato selecionado: picanha");
         printf("\nvalor a pagar: R$ 25,00");
         break;
@@ -34,16 +35,16 @@ int main()
         printf("\nvalor a pagar: R$ 18,00");
         break;
     case 4:
-        printf("prato selecionado: bifÈ acebolado");
+        printf("prato selecionado: bif√© acebolado");
         printf("\nvalor a pagar: R$ 15,00");
         break;
     case 5:
-        printf("prato selecionado: p„o com ovo");
+        printf("prato selecionado: p√£o com ovo");
         printf("\nvalor a pagar: R$ 5,00");
         break;
 
     default:
-        printf("n„o servimos este prato aqui, digite outro cÛdigo de pedido.");
+        printf("n√£o servimos este prato aqui, digite outro c√≥digo de pedido.");
         break;
     }
     return 0;
