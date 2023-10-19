@@ -12,25 +12,25 @@ char login[999];
 char loginconfirm[999];
 char key[999];
 //------------------------------
-printf("crie um nome de úsuario: ");
+printf("crie um nome de Ãºsuario: ");
 gets(login);
 printf("crie uma senha: ");
 gets(password);
 system("cls || clear");
 do
 {
-printf("digite seu nome de úsuario: ");
+printf("digite seu nome de Ãºsuario: ");
 gets(loginconfirm);
 fflush(stdin);
 printf("digite sua senha: ");
 gets(key);
 system("cls || clear");
-if (strcmp(loginconfirm,login) != 0 && strcmp(key,password) !=0)
+if (strcmp(loginconfirm,login) != 0 || strcmp(key,password) !=0)
 {
-    printf("TENTATIVA DE INVASÃO \nsenha ou login invalidos\n\n");
+    printf("TENTATIVA DE INVASÃƒO \nsenha ou login invalidos\n\n");
 }
 } while (strcmp(loginconfirm,login) != 0 || strcmp(key,password) !=0);
-printf("bem-vindo úsuario %s",login);
+printf("bem-vindo Ãºsuario %s",login);
     return 0;
 }
     
