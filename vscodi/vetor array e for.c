@@ -8,14 +8,14 @@ int main()
 {
     setlocale(LC_ALL, "portuguese");
     // variable declaration------------
-    float note[5]; // com vetores/array o 0 também conta 3 = 0 1 2 (3 posições contando o 0)
+    float note[5]; // em vetores/array o 0 também conta 3 = 0 1 2 (3 posições contando o 0)
     // []  <---- vetor/array
     int i;
     //--------------------------------
     for (i = 0; i < 5; i++)
     {
-        printf("%i� nota: ", i + 1);
-        scanf("%f", &note[i]); // o i é o contador para posição do vetor,agora o vetor é 0 porque o i é 0
+        printf("%i° nota: ", i + 1);
+        scanf("%f", &note[i]); // o i é o contador para posições do vetor,agora o vetor é 0 porque o i é 0
                                // também
     }
     //formato abaixo realizado com while/do while.
@@ -25,7 +25,7 @@ int main()
     //scanf("%i", &note[i]);
     //i++
     //} while (i != 5);
-    //NOTAS UMA POR UMA NO LA�O FOR(pode ser feito em do while com modifica��o leve)
+    //NOTAS UMA POR UMA NO LAÇO FOR(pode ser feito em do while com modificação leve)
     //for ( i = 0; i < 5; i++)
    // {
    //  printf("\nnota: %.1f",note[i]);
