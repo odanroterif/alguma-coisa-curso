@@ -8,7 +8,7 @@ int main()
 {
     setlocale(LC_ALL, "portuguese");
 //variable declaration------------
-    char name[999][999];
+    char name[5][999];
     int age[5];
     int i;
 //--------------------------------
