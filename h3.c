@@ -11,7 +11,6 @@ int main()
     char alphabet[26][10][999];
     char name[10][999];
     char single[10];
-    char order[26][10][999];
     int i, j;
 //--------------------------------
     for (i = 0; i < 10; i++)
