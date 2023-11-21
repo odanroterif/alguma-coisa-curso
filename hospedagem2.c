@@ -12,8 +12,8 @@ int main()
 //--------------------------------
     do
     {
-        printf("AVALIAÇÃO DE ATENDIMENTO\n\n");
-        printf("nota de 1 á 10: ");
+        printf("AVALIAÃ‡ÃƒO DE ATENDIMENTO\n\n");
+        printf("nota de 1 Ã¡ 10: ");
         scanf("%i", &note);
         if (note > 10 || note < 1)
         {
