@@ -30,7 +30,7 @@ int main()
     } while (count < 10 && quest != 'N');
     if (count == 10)
     {
-    printf("LIMITE DE HOSPEDAGENS CHEGOU NA CAPACIDADE MÁXIMA\n\n");
+    printf("LIMITE DE HOSPEDAGENS CHEGOU NA CAPACIDADE MÃXIMA\n\n");
     }
     printf("\nhospedes: ");
     for ( i = 0; i < count; i++)
