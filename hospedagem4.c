@@ -14,14 +14,14 @@ int main()
 //--------------------------------
      for (i = 0; i < 6; i++)
     {
-        printf("Cadastrar CPF do hóspede: ");
+        printf("Cadastrar CPF do hÃ³spede: ");
         scanf("%i", &cpf[i]);
         system("cls || clear");
         for (j = 0; j < i; j++) 
         {
             if (cpf[i] == verefication[j])
             {
-                printf("CPF JÁ CADASTRADO, TENTE NOVAMENTE: ");
+                printf("CPF JÃ CADASTRADO, TENTE NOVAMENTE: ");
                 scanf("%i", &cpf[i]);
                 j = -1; 
                 system("cls || clear");
