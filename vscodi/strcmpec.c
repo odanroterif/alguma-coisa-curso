@@ -25,13 +25,13 @@ int main()
     printf("digite a senha: ");
     gets(senhaT);
     system("cls || flush");
-    if (strcmp(loginT, login) == 0 && strcmp(senhaT, senha) == 0) // strcmp: verificação/comparação  de  variaveis  
+    if (strcmp(loginT, login) == 0 && strcmp(senhaT, senha) == 0) // strcmp: verificaÃ§Ã£o/comparaÃ§Ã£o  de  variaveis  
     {
         printf("bem-vindo");
     }
     else
     {
-        printf("úsuario ou senha incorretos, acesso negado");
+        printf("Ãºsuario ou senha incorretos, acesso negado");
     }
     return 0;
 }
