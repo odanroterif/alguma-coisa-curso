@@ -12,7 +12,7 @@ int main()
     int tempo;
     char resultado[999];
 //-------------------------
-    printf("digite seu cÛdigo de trabalho: ");
+    printf("digite seu c√≥digo de trabalho: ");
     gets(codigo);
     fflush(stdin);
     printf("digite seu ano de nascimento: ");
@@ -24,8 +24,8 @@ int main()
     {
         strcpy(resultado,"pode se aposentar ");
     } else { 
-        strcpy(resultado,"n„o pode se aposentar");
+        strcpy(resultado,"n√£o pode se aposentar");
     }
-    printf("situaÁ„o: %s",resultado);
+    printf("situa√ß√£o: %s",resultado);
     return 0;
 }
